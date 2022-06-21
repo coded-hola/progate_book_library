@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({
 
 // homepage route
 app.get('/', function (req, res) {
-    return res.send({ error: false, message: "Welcome to 'Build RESTful CRUD API in Node.js with Express.js and MySQL' Tutorial", writen_by: "Md Obydullah", published_on: "https://shouts.dev" })
+    return res.send({ error: false, message: "Welcome"})
 });
 
 // connection configurations
